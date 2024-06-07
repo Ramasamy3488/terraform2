@@ -1,7 +1,7 @@
 resource "aws_instance" "web" {
   ami             = "ami-0c42696027a8ede58"
   instance_type   = "t2.micro"
-  key_name        = "oct3"
+  key_name        = "devopskey"
   security_groups = ["linux-sg"]
 #  count = 2
 
